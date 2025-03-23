@@ -1,3 +1,4 @@
+' Insert a new row in a table with a keyboard shortcut. I assign this to Ctrl+Shift+Enter.
 Sub Table_New_Row()
 '
 ' Table_New_Row Macro
@@ -5,6 +6,8 @@ Sub Table_New_Row()
 '
     Selection.InsertRowsBelow 1
 End Sub
+
+' Make a table autofit its contents and then autofit the width of the document. I assign this to Ctrl+Shift+Backspace.
 Sub Table_Fit_Content_Wide()
 '
 ' Table_Fit_Content_Wide Macro
